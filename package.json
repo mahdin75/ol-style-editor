@@ -4,6 +4,7 @@
   "description": "openlayers style editor control",
   "main": "src/index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "mocha"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/mahdin75/ol-style-editor/issues"
   },
-  "homepage": "https://github.com/mahdin75/ol-style-editor#readme"
+  "homepage": "https://github.com/mahdin75/ol-style-editor#readme",
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
 }
