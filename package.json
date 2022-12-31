@@ -1,0 +1,22 @@
+{
+  "name": "ol-style-editor",
+  "version": "1.0.0",
+  "description": "openlayers style editor control",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahdin75/ol-style-editor.git"
+  },
+  "keywords": [
+    "openlayers"
+  ],
+  "author": "Mahdi Nazari Ashani <mahdinazari75@gmail.com> (https://mahdinazari.info/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahdin75/ol-style-editor/issues"
+  },
+  "homepage": "https://github.com/mahdin75/ol-style-editor#readme"
+}
