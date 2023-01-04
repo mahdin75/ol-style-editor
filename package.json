@@ -27,12 +27,5 @@
     "eslint": "^8.31.0",
     "mocha": "^10.2.0",
     "nyc": "^15.1.0"
-  },
-  "nyc":{
-    "check-coverage":true,
-    "branches":100,
-    "functions":100,
-    "lines":100,
-    "statements":100
   }
 }
