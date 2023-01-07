@@ -1,10 +1,6 @@
 "use strict";
 
-import data from './sample.json';
-
-module.exports = {
-  all: "test",
-  random: console.log("ddd"),
+const sample = {
 };
 
-const vares215 = "test";
+export default sample

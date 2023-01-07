@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "openlayers style editor control",
   "main": "src/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "babel --copy-files --out-dir dist src",
@@ -10,7 +13,7 @@
     "test": "mocha",
     "watch:test": "mocha --watch",
     "nyc": "nyc npm run test",
-    "validate": "npm-run-all --parallel lint test"
+    "validate": "npm-run-all --parallel lint test build"
   },
   "repository": {
     "type": "git",
