@@ -1,6 +1,6 @@
 "use strict";
 
-import './sample.json';
+import data from './sample.json';
 
 module.exports = {
   all: "test",
