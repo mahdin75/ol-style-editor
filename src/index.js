@@ -1,5 +1,7 @@
 "use strict";
 
+import './sample.json';
+
 module.exports = {
   all: "test",
   random: console.log("ddd"),
